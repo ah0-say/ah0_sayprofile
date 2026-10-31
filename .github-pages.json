@@ -1,0 +1,13 @@
+{
+  "config": "pages.json",
+  "theme": "template",
+  "sample": null,
+  "version": "0.167.0",
+  "slug": "hugo-papermod",
+  "npm": [],
+  "asset_build": [],
+  "generator": "3.1",
+  "repo": "https://github.com/ah0-say/ah0_sayprofile.git",
+  "baseURL": "https://ah0-say.github.io/ah0_sayprofile/",
+  "audited": false
+}
