@@ -1,6 +1,6 @@
 ---
-title: Hello
-date: 2026-01-01
+title: ay0ung home~
+date: 2026-10-31
 draft: false
 ---
-This is my first post.
+hi my name is ayoung
