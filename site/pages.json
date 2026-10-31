@@ -26,16 +26,10 @@
   "defaultContentLanguage": "ko",
   "hasCJKLanguage": true,
   "params": {
-    "author": "아영",
-    "description": "컴퓨터공학·인공지능 전공 학생의 소개 사이트",
+    "author": "심아영",
+    "description": "전북대학교 컴퓨터공학·인공지능 전공 학생 포트폴리오",
     "socialIcons": [
       { "name": "github", "url": "https://github.com/ah0-say" }
-    ]
-  },
-  "menus": {
-    "main": [
-      { "name": "소개", "pageRef": "/about", "weight": 1 },
-      { "name": "활동", "pageRef": "/posts", "weight": 2 }
     ]
   },
   "title": "아영의 포트폴리오"
