@@ -1,7 +1,7 @@
 ---
-title: 알고리즘 스터디 활동
+title: Algorithm Study Activity
 date: 2026-03-02
-description: ALPS 동아리
+description: ALPS Club
 ---
 
 ## 활동 목적
