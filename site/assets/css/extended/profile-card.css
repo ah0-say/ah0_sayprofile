@@ -1,0 +1,55 @@
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 28px;
+  border: 1px solid var(--border, #ccc);
+  border-radius: 12px;
+  background: var(--entry, transparent);
+}
+.profile-card-photo img {
+  display: block;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile-card-info {
+  flex: 1;
+  min-width: 0;
+}
+.profile-card-name {
+  margin: 0 0 4px;
+}
+.profile-card-role {
+  margin: 0 0 16px;
+  color: var(--secondary, #666);
+}
+.profile-card-info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.profile-card-info li {
+  display: flex;
+  gap: 12px;
+  margin: 6px 0;
+  overflow-wrap: anywhere;
+}
+.profile-card-info li span {
+  flex: 0 0 80px;
+  color: var(--secondary, #666);
+}
+@media (max-width: 600px) {
+  .profile-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .profile-card-info li {
+    justify-content: center;
+  }
+  .profile-card-photo img {
+    width: 160px;
+    height: 160px;
+  }
+}ㄴㄴ
