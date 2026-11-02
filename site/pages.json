@@ -25,12 +25,7 @@
   "languageCode": "ko",
   "defaultContentLanguage": "ko",
   "hasCJKLanguage": true,
-  "menus": {
-    "main": [
-      { "name": "소개", "pageRef": "/about", "weight": 1 },
-      { "name": "활동", "pageRef": "/posts", "weight": 2 }
-  ]
-  },
+  
   "params": {
       "profileMode": {
       "enabled": true,
