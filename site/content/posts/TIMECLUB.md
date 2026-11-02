@@ -1,6 +1,6 @@
 ---
 title: TIME club
-date: 2025-09-02 ~
+date: 2025-09-02
 description: Language Study Club TIME
 ---
 
