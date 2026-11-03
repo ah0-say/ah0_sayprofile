@@ -37,7 +37,7 @@
   overflow-wrap: anywhere;
 }
 .profile-card-info li span {
-  flex: 0 0 80px;
+  flex: 0 0 96px;
   color: var(--secondary, #666);
 }
 @media (max-width: 600px) {
