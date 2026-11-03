@@ -12,7 +12,8 @@ title: "소개"
     <ul>
       <li><span>GitHub </span><a href="https://github.com/ah0-say"> ah0-say</a></li>
       <li><span>Email </span><a href="mailto:tladkdud06@jbnu.ac.kr"> tladkdud06@jbnu.ac.kr</a></li>
-      <li><span>blog </span><a href="https://blog.naver.com/sayagg__"> sayagg__</a></li>
+      <li><span>Blog </span><a href="https://blog.naver.com/sayagg__"> sayagg__</a></li>
+      <li><span>Instagram </span><a href="https://www.instagram.com/oroyo__/"> @oroyo__</a></li>
       <li><span>관심 분야 </span>컴퓨터 비전</li>
     </ul>
   </div>
