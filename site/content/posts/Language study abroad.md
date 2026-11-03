@@ -1,7 +1,7 @@
 ---
 title: Language study abroad
 date: 2026-01-04
-draft: Philippines, Vietnam
+description: Philippines, Vietnam
 ---
 
 ## 활동 목적

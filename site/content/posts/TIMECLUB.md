@@ -1,7 +1,7 @@
 ---
-title: TIME club
+title: Language Study Club TIME
 date: 2025-09-02
-description: Language Study Club TIME
+description: TIME
 ---
 
 ## 활동 목적
