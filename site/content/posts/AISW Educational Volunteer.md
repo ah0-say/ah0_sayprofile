@@ -30,7 +30,7 @@ description: AISW Educational Volunteering
 
 ## 결과
 모둠별 로봇 자동차 1대씩를 완성해 스마트폰으로 주행시키고, 레이싱·축구 대회를 진행함
-![모둠별로 완성한 로봇 자동차](https://ah0-say.github.io/ah0_sayprofile/images/image01.png)
+![모둠별로 완성한 로봇 자동차](https://ah0-say.github.io/ah0_sayprofile/images/image01.jpg)
 
 
 ## 배운 점과 개선 방향
