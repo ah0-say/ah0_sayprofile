@@ -40,7 +40,13 @@
         { "name": "활동", "url": "posts/" }
       ]
     },
-
+        "assets": {
+      "favicon": "images/profile2.jpg",
+      "favicon16x16": "images/profile2.jpg",
+      "favicon32x32": "images/profile2.jpg",
+      "apple_touch_icon": "images/profile2.jpg",
+      "safari_pinned_tab": "images/profile2.jpg"
+    },
     "author": "심아영",
     "description": "전북대학교 컴퓨터공학·인공지능 전공 학생 포트폴리오",
     "socialIcons": [
