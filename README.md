@@ -64,3 +64,16 @@ npm run build
 ```
 
 확인: 저장소 루트에 `public/index.html`이 생성되면 됩니다.
+
+## 수정할 파일 위치 
+- 사이트 제목, 프로필, 링크 설정 : site/pages.json
+- 소개 페이지 : site/content/about.md
+- 활동 글 : site/content/posts/
+- 소개 카드 스타일 : site/assets/css/extended/profile-card.css
+
+## 수정 후 재배포
+1. git add 수정한파일 (git add . (전체파일))
+2. git commit -m "변경 내용 설명"
+3. git push origin main 
+4. GitHub Actions 탭에서 "Deploy Hugo to GitHub Pages"가 성공(초록 체크)했는지 확인
+5. 시크릿 창에서 사이트를 열어 변경이 반영됐는지 확인
