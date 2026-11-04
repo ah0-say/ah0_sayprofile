@@ -2,6 +2,8 @@
 title: Language Study Club TIME
 date: 2025-09-02
 description: TIME
+status: "진행 중"
+period: "2025년 9월 ~ 현재"
 tags: ["어학", "동아리"]
 ---
 
