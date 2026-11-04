@@ -53,3 +53,22 @@
     height: 160px;
   }
 }
+
+/* 활동 목록: 진행 중 / 완료 그룹 */
+.activity-group {
+  margin-bottom: 32px;
+}
+.activity-group-title {
+  font-size: 1.2rem;
+  margin: 0 0 12px;
+}
+.activity-count {
+  font-size: 0.9rem;
+  color: var(--secondary);
+  font-weight: normal;
+}
+.activity-group .entry-header h3 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin: 0;
+}
