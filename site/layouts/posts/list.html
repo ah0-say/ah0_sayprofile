@@ -1,0 +1,46 @@
+{{- define "main" }}
+
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+
+{{- if .Content }}
+<div class="post-content md-content">
+  {{ .Content }}
+</div>
+{{- end }}
+
+{{- $ongoing := where .RegularPages "Params.status" "진행 중" }}
+{{- $done := where .RegularPages "Params.status" "!=" "진행 중" }}
+
+{{- range $group := slice (dict "title" "진행 중" "pages" $ongoing) (dict "title" "완료" "pages" $done) }}
+{{- if $group.pages }}
+<section class="activity-group">
+  <h2 class="activity-group-title">{{ $group.title }} <span class="activity-count">{{ len $group.pages }}</span></h2>
+  {{- range $group.pages.ByDate.Reverse }}
+  <article class="post-entry">
+    <header class="entry-header">
+      <h3 class="entry-hint-parent">{{ .Title }}</h3>
+    </header>
+    {{- with .Description }}
+    <div class="entry-content">
+      <p>{{ . }}</p>
+    </div>
+    {{- end }}
+    <footer class="entry-footer">
+      {{- with .Params.period }}{{ . }}{{ else }}{{ .Date | time.Format ":date_long" }}{{ end }}
+    </footer>
+    <a class="entry-link" aria-label="{{ .Title | plainify }} 활동 글 보기" href="{{ .Permalink }}"></a>
+  </article>
+  {{- end }}
+</section>
+{{- end }}
+{{- end }}
+
+{{- end }}
