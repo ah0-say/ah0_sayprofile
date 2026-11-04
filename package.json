@@ -1,0 +1,12 @@
+{
+  "name": "ah0-sayprofile",
+  "private": true,
+  "description": "아영의 포트폴리오 (Hugo PaperMod) 로컬 미리보기와 빌드",
+  "scripts": {
+    "dev": "hugo server --source site --config pages.json --renderToMemory",
+    "build": "hugo --source site --config pages.json --destination ../public --minify"
+  },
+  "devDependencies": {
+    "hugo-extended": "0.167.0"
+  }
+}
