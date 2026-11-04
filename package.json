@@ -8,5 +8,8 @@
   },
   "devDependencies": {
     "hugo-extended": "0.167.0"
+  },
+  "allowScripts": {
+    "hugo-extended@0.167.0": true
   }
 }
