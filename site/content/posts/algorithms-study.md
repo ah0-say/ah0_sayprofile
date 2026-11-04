@@ -14,5 +14,5 @@ description: ALPS Club
 ## 결과
 https://github.com/ah0-say/26ALPStudy.git
 
-## 배운 점과 개선 방향
-스터디를 꾸준히 참여하지 못함
+## 개선 방향
+하루에 3문제씩 기록하기
