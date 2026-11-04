@@ -2,6 +2,8 @@
 title: Algorithm Study Activity
 date: 2026-03-02
 description: ALPS Club
+status: "진행 중"
+period: "2026년 3월 ~ 현재"
 tags: ["알고리즘", "스터디"]
 ---
 
