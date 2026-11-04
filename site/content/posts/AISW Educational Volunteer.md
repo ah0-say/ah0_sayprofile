@@ -2,6 +2,7 @@
 title: AISW Educational Volunteer 
 date: 2026-05-26
 description: AISW Educational Volunteering
+tags: ["봉사", "IoT", "교육"]
 ---
 
 ## 활동 목적
