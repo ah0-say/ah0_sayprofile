@@ -2,6 +2,7 @@
 title: Language Study Club TIME
 date: 2025-09-02
 description: TIME
+tags: ["어학", "동아리"]
 ---
 
 ## 활동 목적
